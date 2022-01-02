@@ -6,7 +6,7 @@ from rest_framework import viewsets
 
 
 class ApiList(viewsets.ModelViewSet):
-    authentication_classes = [BasicAuthentication]
+    authentication_classes = [TokenAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
     serializer_class = ApiSerializer
     queryset = Api.objects.all()
