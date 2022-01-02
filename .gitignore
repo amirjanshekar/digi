@@ -1,0 +1,7 @@
+node_modules/
+debug.log/
+build/
+.vscode/
+.idea/
+yarn.lock/
+package-lock.json/

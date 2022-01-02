@@ -1,0 +1,5 @@
+price 1: 35000
+price 2: 126000
+price 3: 2820000
+price 4: 368000
+price 5: 52300
